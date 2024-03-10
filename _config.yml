@@ -1,4 +1,4 @@
-title: "Viviana-Romero Alarcon"
+xtitle: "Viviana-Romero Alarcon"
 author: "Viviana-Romero Alarcon"
 description: "University of Massachusetts Boston"
 permalink: /:title/
@@ -16,7 +16,7 @@ minimal: false           # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "CV.md",  icon: "home"}
+  - {file: "index",  icon: "home"}
   - {file: "CV.md", title: "CV"}
   - {file: "blog.html", title: "Blog"}
   - {file: "projects.md", title: "Projects"}
