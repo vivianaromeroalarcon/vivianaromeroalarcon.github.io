@@ -22,6 +22,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "projects.md", title: "Projects"}
   - {file: "services.md", title: "Services"}
   - {file: "community.md", title: "Community"}
+  - {file: "archive.html", title: "Achive"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: "envelope", url: "mailto: viviana.romeroalarcon@gmail.com"}
