@@ -1,1 +1,1 @@
-
+mathjax: true
