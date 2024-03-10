@@ -143,8 +143,12 @@ a:hover .icon
 
 
 .container 
-  position: relative
-  width: 50%
+  position: absolute;
+        top: 0;
+        left: 50%;
+        -moz-transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
 
 
 .image 
