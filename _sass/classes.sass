@@ -164,29 +164,24 @@ a:hover .icon
   float: right
   padding: 20px
   
-  .container .image
-    opacity: 1
-    display: block
-    width: 100%
-    height: auto
-    transition: .5s ease
-    backface-visibility: hidden
+.container .image
+  opacity: 1
+  display: block
+  width: 100%
+  height: auto
+  transition: .5s ease
+  backface-visibility: hidden
     
-.container .middle 
-  /*opacity: 1  Always visible */
+.container .middle
+  opacity: 0 /* Initially hidden */
   position: absolute
   top: 50%
   left: 50%
-  transform: translate(-50%, -50%) /* Center the element */
+  transform: translate(-50%, -50%)
   text-align: center
-
-
-
-
 
 .container:hover .image 
   opacity: 0.3
-
 
 .container:hover .middle 
   opacity: 1
