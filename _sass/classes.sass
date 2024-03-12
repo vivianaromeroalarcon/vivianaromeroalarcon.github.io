@@ -147,12 +147,13 @@ a:hover .icon
 
 .parental 
   border: 3px solid #fff
-  padding: 20px
+  display: flex;
 
 
 .box
   width: 40%
   float: left
+  margin-right: 20px
   /* background: rgba(19,79,92,0.04) */
   text-align: left
   color: #134F5C
@@ -163,6 +164,9 @@ a:hover .icon
   width: 45%
   float: right
   padding: 20px
+  flex-grow: 1 /* Occupy remaining space in the flex container */
+  display: flex /* Ensure the image and LinkedIn icon are aligned vertically */
+  align-items: center /* Vertically center the content */
   
 .container .image
   opacity: 1
@@ -179,12 +183,17 @@ a:hover .icon
   left: 50%
   transform: translate(-50%, -50%)
   text-align: center
+  margin-left: auto
 
 .container:hover .image 
   opacity: 0.3
 
 .container:hover .middle 
   opacity: 1
+
+  .container .middle img 
+  width: 50% /* Adjust the width of the LinkedIn icon */
+
 
 
 
