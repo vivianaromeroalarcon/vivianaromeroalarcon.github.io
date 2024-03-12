@@ -12,6 +12,21 @@
       <h5> Website in construction</h5>
     </div>
 
+
+    <hr> <!-- Horizontal line division -->
+
+    <div class="news-box">
+      <h2>Latest News</h2>
+      {% for news in site.posts limit:3 %} {# Changing 'post' to 'news' and limiting to only three most recent news #}
+    <li>
+      <time datetime="{{ news.date | date_to_xmlschema }}">{{ news.date | date: "%Y-%m-%d" }}</time>
+      <a href="{{ news.url | relative_url }}">{{ news.title }}</a>
+    </li>
+    {% endfor %}
+    </div>
+
+
+
     <div class="container">
   <img src="assets/img/circledisign.png" alt="Avatar" class="image" style="width: 70%">
   <div class="middle"> <!-- Assign the class here -->
