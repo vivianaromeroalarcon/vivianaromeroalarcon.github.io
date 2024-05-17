@@ -17,7 +17,7 @@ minimal: false           # use a dark header
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
  
-  - {file: "BloombergAIfellowship_VivianaRomeroAlarcon_CV_vr1.pdf.pdf", title: "CV"}
+  - {file: "VivianaRomeroAlarcon.html", title: "CV"}
   - {file: "blog.html", title: "Blog"}
   - {file: "projects.md", title: "Projects"}
   - {file: "services.md", title: "Services"}
